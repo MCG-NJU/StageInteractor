@@ -67,7 +67,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 python -m torch.distributed.launch --nproc_
 Checkpoints and logs are available at [google drive](https://drive.google.com/drive/folders/1o0LehP263Mb96zJ21YkE_E16eivluMiU?usp=sharing).
 
 | config |  detector | backbone  | APval | APtest |
-| :-------: | :-------: | :-------:  | :-------: | :-------: | :---: | :---: |
+| :------: | :-------: | :-------:  | :-------: | :-------: |
 | [config](configs/stageinteractor/stageinteractor_dx101_300_query_crop_mstrain_480-800_3x_coco.py) | StageInteractor (3x schedule, 300 queries)  |  X101-DCN|  51.3  | 51.3  |
 | [config](configs/stageinteractor/stageinteractor_swin_s_300_query_crop_mstrain_480-800_3x_coco.py) | StageInteractor (3x schedule, 300 queries)   |  Swin-S  |  52.7  | 52.7   |
 
